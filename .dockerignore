@@ -1,0 +1,15 @@
+# 绝不能进构建上下文的：Windows 二进制、模型、运行时产物、个人音色
+venv/
+venv.new/
+venv.old-*/
+checkpoints/
+runtime/
+voices/
+
+**/__pycache__
+**/*.pyc
+*.partial-*
+.git/
+.gitignore
+Dockerfile
+.dockerignore

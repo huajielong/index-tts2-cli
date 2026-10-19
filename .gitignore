@@ -1,0 +1,35 @@
+# Large local environments / model weights (platform-bound; not committed)
+venv/
+venv.new/
+venv.old-*/
+.venv/
+checkpoints/
+
+# Runtime outputs and state
+runtime/
+*.partial-*
+*.partial-*.wav
+
+# Personal voice library. Keep the directory, ignore user audio/registry.
+voices/*
+!voices/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# Local secrets / config overrides
+.env
+.env.*
